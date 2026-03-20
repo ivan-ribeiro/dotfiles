@@ -1,0 +1,30 @@
+[user]
+	name = Ivan Ribeiro
+	email = iribeiro@workwave.com
+
+[push]
+	autoSetupRemote = true
+
+[pull]
+	ff = only
+
+[alias]
+	cm = commit -m
+	hardpull = reset --hard @{u}
+	last = log -1 HEAD
+	undo = reset --soft HEAD~1
+	amend = commit --amend --no-edit
+	lg = log --oneline --graph --decorate --all
+	wip = commit -am "WIP"
+	list-merged = !git fetch -p && git branch -vv | grep ': gone]' | awk '{print $1}'
+	aliases = config --get-regexp '^alias\\.'
+	rbc = rebase --continue
+
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+
+[http]
+	postBuffer = 524288000
