@@ -1,0 +1,83 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm vitest *)",
+      "Bash(pnpm build)",
+      "Bash(pnpm build:*)",
+      "Bash(pnpm test)",
+      "Bash(pnpm test:*)",
+      "Bash(git log --oneline -10)",
+      "Bash(git branch -a)",
+      "Bash(git log --all --oneline)",
+      "Bash(tree:*)",
+      "Bash(gh pr view:*)",
+      "Bash(gh pr diff:*)",
+      "Bash(gh api:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh workflow:*)",
+      "Bash(gh run list:*)",
+      "Bash(gh run view:*)",
+      "Bash(gh run watch:*)",
+      "Bash(git pull:*)",
+      "Bash(git push:*)",
+      "Bash(ls:*)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(grep:*)",
+      "Bash(git status:*)",
+      "Bash(gh pr comment:*)",
+      "Bash(gh pr list:*)",
+      "Bash(node -e:*)",
+      "Bash(xargs:*)",
+      "Bash(wc:*)",
+      "Bash(find:*)",
+      "Bash(pnpm install:*)",
+      "Bash(pnpm lint:*)",
+      "Bash(pnpm validate:*)",
+      "Bash(git diff:*)"
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/statusline.sh"
+  },
+  "enabledPlugins": {
+    "superpowers@claude-plugins-official": true
+  },
+  "spinnerVerbs": {
+    "mode": "replace",
+    "verbs": [
+      "Adding a happy little function",
+      "Beating the devil out of this bug",
+      "Painting a nice little module right here",
+      "Making happy little accidents",
+      "Giving this variable a friend",
+      "Finding happy little surprises instead of bugs",
+      "Getting a little crazy here",
+      "Blending the colors of the codebase",
+      "Giving this function a happy little companion",
+      "Building a happy little cloud function",
+      "Letting it flow, letting it happen",
+      "Painting in some gentle error handling",
+      "Putting a happy little commit right here",
+      "Gently massaging the data structure",
+      "Adding a nice little test right there",
+      "Softly refactoring",
+      "Believing you can do it, cause you can",
+      "Adding some titanium white space",
+      "Putting some happy types up in here",
+      "Building anything in this world of yours",
+      "Quietly fixing things",
+      "Enjoying the joy of coding",
+      "Making fluffy little clouds of abstraction",
+      "Washing the brush of technical debt",
+      "Planting a happy little tree of components",
+      "Mixing a nice shade of syntax highlighting",
+      "Whispering encouragement to the tests",
+      "Finding the beauty in this codebase",
+      "Dabbing in just a touch of refactoring",
+      "No mistakes, just features"
+    ]
+  }
+}
