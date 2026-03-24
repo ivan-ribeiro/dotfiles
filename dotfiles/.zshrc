@@ -16,6 +16,3 @@ export EDITOR="code --wait"
 
 # Aliases
 alias claude-prune='find ~/.claude/projects -name "*.jsonl" -delete && echo "Claude sessions pruned."'
-
-# Source bashrc for anything install.sh appended
-[ -f ~/.bashrc ] && source ~/.bashrc
